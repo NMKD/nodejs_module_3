@@ -1,0 +1,26 @@
+{
+  "name": "note-app",
+  "version": "1.0.1",
+  "description": "This is simple NodeJS Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "serve": "nodemon index"
+  },
+  "keywords": [
+    "node",
+    "javascript"
+  ],
+  "author": "Kryazheva Kristina",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "yargs": "^17.2.1"
+  },
+  "devDependencies": {
+    "@types/yargs": "^17.0.4",
+    "nodemon": "^2.0.22"
+  }
+}
