@@ -61,6 +61,8 @@ app.put("/:id", async (req, res) => {
   if (!req.body) return res.sendStatus(400);
   if (req.body.title === null) return;
 
+  console.log(req.body.title);
+
   await updateNote(req.body);
 
   res.render(root, {
